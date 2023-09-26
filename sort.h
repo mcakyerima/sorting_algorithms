@@ -21,6 +21,7 @@ void shell_sort(int *array, size_t size);
  * @prev: A pointer to the previous element of the list
  * @next: A pointer to the next element of the list
  */
+
 typedef struct listint_s
 {
 	const int n;
@@ -31,4 +32,4 @@ typedef struct listint_s
 
 
 
-#endif/* SORT_H */
+#endif /* SORT_H */

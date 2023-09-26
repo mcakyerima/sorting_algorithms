@@ -2,7 +2,7 @@
 
 /*
  * File: 0-bubble_sort.c
- * Aurhor: Mohammed Ak
+ * Author: Mohammed Ak
  */
 
 /**
@@ -14,7 +14,7 @@
 
 void bubble_sort(int *array, size_t size)
 {
-	int tmp;
+	int temp;
 	size_t j, i;
 
 	if (array == NULL || size == 0)
