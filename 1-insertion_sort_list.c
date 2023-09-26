@@ -1,11 +1,12 @@
 #include "sort.h"
-/**
+/*
  * File: 1-insertion_sort_list.c
  * Author: Mohammed Ak
  */
 
 /**
- * swap_backward - swaps two nodes from the right  and left position
+ * swap_backward - swaps two nodes from the right  and left
+ *	position
  * @c: the list pointer
  *
  **/
@@ -34,11 +35,13 @@ void swap_backward(listint_t *c)
 			c = c->prev;
 	}
 }
+
 /**
  * swap_forward - swap two nodes from the left rigth position
  * @c: the list pointer
  *
  **/
+
 void swap_forward(listint_t *c)
 {
 	listint_t *temp, *head;
@@ -71,7 +74,8 @@ void swap_forward(listint_t *c)
 	swap_backward(c->prev);
 }
 /**
- * insertion_sort_list - sorts a doubly linked list using the  insertion algorithm
+ * insertion_sort_list - sorts a doubly linked list using the  insertion
+ *	algorithm
  * @list: the list to be sorted
  *
  **/
