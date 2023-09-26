@@ -32,7 +32,7 @@ void selection_sort(int *array, size_t size)
 	unsigned int j, i, minimum;
 
 	if (array == NULL || size < 2)
-		(return)
+		return;
 
 	for (i = 0; i < size; i++)
 	{
