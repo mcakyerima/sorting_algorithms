@@ -1,6 +1,6 @@
 #include "sort.h"
 
-/**
+/*
  * File: 2-selection_sort.c
  * Author: Mohammed Ak
  */
@@ -21,7 +21,7 @@ void swap(int *a, int *b)
 }
 
 /**
- * selection_sort - sort array using selection the selection sort algorithm
+ * selection_sort - sorts array using selection the selection sort algorithm
  * @array: The array to be sorted
  * @size: Size of array to be sorted
  *
@@ -29,10 +29,10 @@ void swap(int *a, int *b)
 
 void selection_sort(int *array, size_t size)
 {
-	unsigned int j, i , minimum;
+	unsigned int j, i, minimum;
 
 	if (array == NULL || size < 2)
-		return
+		(return)
 
 	for (i = 0; i < size; i++)
 	{
